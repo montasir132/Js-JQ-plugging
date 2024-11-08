@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>montasir alam</title>
+    <!--favicon link-->
+    <link rel="icon" type="image/png" href="#">
+    <!--icon link-->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick/slick.css">
+
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+  </head>
+  <body>
+    <!--header start-->
+    <header class="container">
+      <!-- navbar start  -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
+          <!-- logo start  -->
+          <a class="navbar-brand" href="#index.html">js/jq</a>
+          <!-- logo end  -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_c" aria-controls="nav_c" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- menu start  -->
+          <div class="collapse navbar-collapse menu" id="nav_c">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Slider">Slider</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home4</a>
+              </li>
+            </ul>
+          </div> 
+          <!-- menu end  -->
+        </div>
+      </nav>
+      <!-- navber end  -->
+    </header>
+    <!-- header end  -->
+    <h2 class="bg-dark text-center m-5">3D Stack Card Slider Example</h2>
+    <section class="home1" id="Slider">
+      <div class="container">
+        <div id="slider"> 
+          <div class="dp-wrap"> 
+            <div id="dp-slider">
+              
+              <div class="dp_item" data-class="1" data-position="1">
+                <div class="dp-content">
+                  <h2>Slide 1</h2>
+                  <p> This is Slide 1 </p>
+                  <a href="#" class="site-btn">Read More…</a>
+                </div>
+                <div class="dp-img">
+                  <img class="img-fluid" src="images/wallpaperflare.com_wallpaper (1).jpg" alt="montasir">
+                </div>
+              </div>
+              
+              <div class="dp_item" data-class="2" data-position="2">
+                <div class="dp-content">
+                  <h2>Slide 2</h2>
+                  <p> This is Slide 2 </p>
+                  <a href="#" class="site-btn">Read More…</a>
+                </div>
+                <div class="dp-img">
+                  <img class="img-fluid" src="images/wallpaperflare.com_wallpaper (2).jpg" alt="investing">
+                </div>
+              </div>
+        
+              <div class="dp_item" data-class="3" data-position="3">
+                <div class="dp-content">
+                  <h2>Slide 3</h2>
+                  <p> This is Slide 3 </p>
+                  <a href="#" class="site-btn">Read More…</a>
+                </div>
+                <div class="dp-img">
+                  <img class="img-fluid" src="images/leon-bublitz-uDTzfsGJihw-unsplash-800x500.webp" alt="investing">
+                </div>
+              </div>
+        
+              <div class="dp_item" data-class="4" data-position="4">
+                <div class="dp-content">
+                  <h2>Slide 4</h2>
+                  <p> This is Slide 4 </p>
+                  <a href="#" class="site-btn">Read More…</a>
+                </div>
+                <div class="dp-img">
+                  <img class="img-fluid" src="images/wallpaperflare.com_wallpaper.jpg" alt="investing">
+                </div>
+              </div>
+            </div>
+            
+            <span id="dp-next">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                      stroke: #fa8c8c;
+                      stroke-miterlimit: 10;
+                      stroke-width: 7px;
+                    }
+                  </style>
+                </defs>
+                <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+              </svg>
+            </span>
+        
+            <span id="dp-prev">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                      stroke: #fa8c8c;
+                      stroke-miterlimit: 10;
+                      stroke-width: 7px;
+                    }
+                  </style>
+                </defs>
+                <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)"/>
+              </svg>
+            </span>
+        
+            
+        
+            <ul id="dp-dots">
+              <li data-class="1" class="active"></li>
+              <li data-class="2"></li>
+              <li data-class="3"></li>
+              <li data-class="4"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- slider strat -->
+    <section class="slider1">
+      <div class="container">
+        <h2 class="c_h2 text-center text-dark">Single item slider</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="s1_wapper text-center">
+              <div class="slider_item pink"><h2 class="mb-0">1</h2></div>
+              <div class="slider_item indigo"><h2 class="mb-0">2</h2></div>
+              <div class="slider_item brown"><h2 class="mb-0">3</h2></div>
+              <div class="slider_item blard"><h2 class="mb-0">4</h2></div>
+              <div class="slider_item  blue"><h2 class="mb-0">5</h2></div>
+              <div class="slider_item red"><h2 class="mb-0">6</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+   <!-- slider end -->
+   <!-- slider strat responsive -->
+    <section class="slider1">
+      <div class="container">
+        <h2 class="c_h2 text-center text-dark">responsive item slider</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="s2_wapper text-center">
+              <div class="slider_item pink"><h2 class="mb-0">1</h2></div>
+              <div class="slider_item indigo"><h2 class="mb-0">2</h2></div>
+              <div class="slider_item brown"><h2 class="mb-0">3</h2></div>
+              <div class="slider_item blard"><h2 class="mb-0">4</h2></div>
+              <div class="slider_item  blue"><h2 class="mb-0">5</h2></div>
+              <div class="slider_item red"><h2 class="mb-0">6</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+   <!-- slider end responsive -->
+   <!-- slider strat responsive -->
+    <section class="slider1">
+      <div class="container">
+        <h2 class="c_h2 text-center text-dark">Slider Syncing</h2>
+        <div class="row">
+          <div class="col-12">
+            <!-- item 1 strat -->
+            <div class="s3t_wapper text-center">
+              <div class="slider_item pink"><h2 class="mb-0">1</h2></div>
+              <div class="slider_item indigo"><h2 class="mb-0">2</h2></div>
+              <div class="slider_item brown"><h2 class="mb-0">3</h2></div>
+              <div class="slider_item blard"><h2 class="mb-0">4</h2></div>
+              <div class="slider_item  blue"><h2 class="mb-0">5</h2></div>
+              <div class="slider_item red"><h2 class="mb-0">6</h2></div>
+            </div>
+            <!-- item 1 end -->
+            <!-- item 2 strat -->
+            <div class="s3b_wapper text-center">
+              <div class="slider_item pink"><h2 class="mb-0">1</h2></div>
+              <div class="slider_item indigo"><h2 class="mb-0">2</h2></div>
+              <div class="slider_item brown"><h2 class="mb-0">3</h2></div>
+              <div class="slider_item blard"><h2 class="mb-0">4</h2></div>
+              <div class="slider_item  blue"><h2 class="mb-0">5</h2></div>
+              <div class="slider_item red"><h2 class="mb-0">6</h2></div>
+            </div>
+            <!-- item 2 end -->
+            
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- slider end responsive -->
+    <!-- fotter strat -->
+    <footer>
+      <p class="mb-0 text-center text-dark">created by <span><a class="text-decoration-none text-dark" href="https://montasiralam.xyz"> Montasir Alam</a></span> </p>
+    </footer>
+    <!-- fotter end -->
+    <!--js links-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="slick/slick/slick.js"></script>
+    <script src="slick/slick/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
